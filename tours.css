@@ -316,11 +316,11 @@
      align-items: center;
      justify-content: center;
  }
- 
+
 
  .choice-title {
 
-    height: 50px;
+     height: 50px;
      display: flex;
      justify-content: center;
      color: #131318;
@@ -332,7 +332,7 @@
  }
 
  .explanation {
-    width: 643px;
+     width: 643px;
      display: flex;
      justify-content: center;
      color: rgba(19, 19, 24, 0.70);
@@ -365,7 +365,7 @@
      border-radius: 16px;
      border: 1px solid rgba(251, 181, 99, 0.20);
      background: rgba(251, 181, 99, 0.05);
-     
+
  }
 
  .card-2 {
@@ -385,42 +385,210 @@
      background: rgba(233, 68, 68, 0.05);
 
  }
+
  .card-1 img {
-    width: 64px;
-    height: 64px;
-    margin-top: 32px;
-    margin-left: 32px;
-    
+     width: 64px;
+     height: 64px;
+     margin-top: 32px;
+     margin-left: 32px;
+
  }
+
  .card-2 img {
-    width: 64px;
-    height: 64px;
-    margin-top: 32px;
-    margin-left: 32px;
-    
+     width: 64px;
+     height: 64px;
+     margin-top: 32px;
+     margin-left: 32px;
+
  }
+
  .card-3 img {
-    width: 64px;
-    height: 64px;
-    margin-top: 32px;
-    margin-left: 32px;
+     width: 64px;
+     height: 64px;
+     margin-top: 32px;
+     margin-left: 32px;
+
+ }
+
+ .info {
+     color: #131318;
+     text-align: left;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     margin-left: 32px;
+ }
+
+ .text-info {
+     color: #5A5A5D;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px;
+     margin-left: 32px;
+     width: 486px;
+ }
+
+ .news-letter {
+     display: flex;
+     justify-content: center;
+     gap: 24px;
+     padding-top:100px ;
+
+ }
+
+ .sub-left {
+     display: flex;
+     flex-direction: column;
+     width: 474px;
+     height: 422px;
+     border-radius: 16px;
+     border: 1px solid #FF5400;
+   align-items: center;
+    justify-content: space-around;
+ }
+
+ .sub-title {
+    margin-right: 220px;
+    color: #131318;
+     font-size: 24px;
+     font-weight: 800;
+     width:126px;
+ }
+
+ .sub-text {
+     color: #5A5A5D;
+     font-size: 16px;
+     font-weight: 400;
+     width:350px;
+     height: 52px;
+     
+}
+
+ .text-field {
+     width: 393px;
+     height: 52px;
+     border-radius: 8px;
+     padding: top 24px;
+     margin-top: 0;
+     margin-bottom: 16px;
+     border: none;
+     background: rgba(19, 19, 24, 0.05);
+
+}
+
+ .email {
+     width: 393px;
+     height: 52px;
+     border-radius: 8px;
+     margin-top: 0;
+     margin-bottom: 24px;
+     background: rgba(19, 19, 24, 0.05);
+     border: none;
     
  }
- .info{
-color: #131318;
-text-align: left;
+
+ .btn-subscribe {
+     width: 393px;
+     height: 52px;
+     border-radius: 8px;
+     background: #FF5400;
+    margin-top: 0;
+    margin-bottom: 40px;
+    border: none;
+
+ }
+
+ .line {
+     width: 393px;
+     height: 1px;
+     margin-bottom:50px;
+ }
+ .rotation{
+border-radius: 16px;
+background: #FF5400;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+position: absolute;
+top:65%;
+left:70%;
+
+
+ 
+
+ }
+.pic-text-title{
+color: #FFF;
+text-align: center;
 font-size: 24px;
+ font-weight: 400;
+ margin-bottom: 0px;
+
+ }
+ .pic-text{
+color: #FFF;
+text-align: center;
+margin-top: 0px;
+}
+.news-letter{
+    position: relative;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.end{
+background: rgba(19, 19, 24, 0.05);
+width: 1440px;
+height: 502px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+
+}
+.logo-pri{
+    color: #FF5400;
+}
+.footer-row1{
+    color: var(--Dark-01, #131318);
+    font-size: 32px;
 font-style: normal;
 font-weight: 800;
-line-height: normal;
-margin-left: 32px;
- }
- .text-info{
-    color: #5A5A5D;
+margin-top: 110px;
+margin-bottom: 0;
+}
+
+.footer-text{
+color: #5A5A5D;
+text-align: center;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 26px;
-margin-left: 32px;
-width: 486px;
- }
+margin-top: 0px;
+margin-bottom: 15px;
+}
+.footer-end{
+color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+margin-top: 0px;
+margin-bottom: 110px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
