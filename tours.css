@@ -433,14 +433,153 @@
      color: #5A5A5D;
      font-size: 16px;
      font-weight: 400;
+}
+.deals-discount {
+    text-align: center;
+    align-items: center;
+  }
+  
+  .deals-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+  }
+  
+  .deals-text {
+    color: rgba(19, 19, 24, 0.7);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 643px;
+    margin: auto;
+  }
+  
+  .deals-container {
+    background-image: url(Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    margin: 48px auto;
+    width: 1170px;
+    height: 500px;
+    display: flex;
+  }
+  .deals-container1 {
+    background-image: url(Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    margin: 48px auto;
+    width: 1170px;
+    height: 500px;
+    display: flex;
+  }
+  .deals-tickets {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    backdrop-filter: blur(2.5px);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(2.5px);
+    text-align: left;
+    margin: 56px 55px 56px 535px;
+  }
+  .deals-tickets1 {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    backdrop-filter: blur(2.5px);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(2.5px);
+    text-align: left;
+    margin: 56px 535px 56px 55px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .icon-img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  .icon-text {
+    color: #5a5a5d;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 24px;
+  }
+  
+  .des-title {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 0px;
+  }
+  
+  .des-text {
+    color: #5a5a5d;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 452px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+  
+  .des-price {
+    color: #ff5400;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 16px;
+    margin-bottom: 26px;
+  }
+  
+  .des-button {
+    width: 150px;
+    height: 52px;
+    border-radius: 8px;
+    background: #ff5400;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    border: none;
+  }
+  
+  .deals-description {
+    margin-left: 50px;
+  }
+  
+  .package {
+    width: 210px;
+    height: 52px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    background: #ff5400;
+    border: none;
+    border-radius: 8px;
+  }
+  
 
- }
 
  .news-letter {
      display: flex;
      justify-content: center;
      gap: 24px;
      padding-top: 100px;
+     position: relative;
 
  }
 
@@ -525,11 +664,7 @@
      position: absolute;
      top: 65%;
      left: 70%;
-
-
-
-
- }
+}
 
  .pic-text-title {
      color: #FFF;
@@ -546,9 +681,7 @@
      margin-top: 0px;
  }
 
- .news-letter {
-     position: relative;
- }
+ 
 
  footer {
      display: flex;
@@ -826,14 +959,80 @@
          ;
      }
 
+     .deals-discount {
+        margin: 24px auto;
+      }
+      .deals-title {
+        font-size: 20px;
+        text-align: center;
+      }
+    
+      .deals-text{
+        width: 309px;
+        font-size: 14px;
+        text-align: center;
+      }
+    
+      .deals-container,
+      .deals-container1 {
+        width: 335px;
+        height: 500px;
+        border-radius: 16px;
+        background-position: 50% 50%;
+      }
+    
+      .deals-tickets,
+      .deals-tickets1 {
+        margin: 0px;
+        width: 303px;
+        height: 297px;
+        margin: 187px 16px 16px 16px;
+      }
+      .icon-text {
+        font-size: 16px;
+      }
+      .des-title {
+        margin-top: 0px;
+        font-size: 20px;
+        
+      }
+      .icons {
+        margin: 0px;
+      }
+    
+      .deals-description {
+        margin: 0px;
+        margin-left: 25px;
+      }
+      .des-title {
+        width: 254px;
+        margin-bottom: 0px;
+        margin-top: 8px;
+      }
+    
+      .des-text {
+        width:250px;
+        font-size: 16px;
+        margin-bottom: 0px;
+        margin-top: 12px;
+      }
+    
+      .des-button {
+        margin-top: 16px;
+        width: 130px;
+        height: 40px;
+      }
+      .icon-text{
+      font-size: 16px;
+      }
+    
+
      .news-letter {
          display: flex;
          flex-direction: column;
          align-items: center;
          margin-top: 0;
-
-
-     }
+      }
 
      .sub-left {
          width: 355px;
