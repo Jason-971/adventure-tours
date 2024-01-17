@@ -102,10 +102,6 @@ nav li a {
 .popular-tours {
     display: flex;
     justify-content: center;
-
-   
-
-
 }
 .left-content {
  width: 650px;
@@ -124,10 +120,8 @@ nav li a {
 .text-h {
     color: rgba(19, 19, 24, 0.70);
     font-size: 14px;
-    /* width: 577px; */
     font-weight: 400;
     margin-top: 0;
-    /* height: 52px; */
 }
 
 .text {
@@ -199,25 +193,18 @@ p {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
-
-
-
 }
 
 .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
-
 }
 
 .row-1 {
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
-
 }
 
 .row-2 {
@@ -300,8 +287,32 @@ p {
     align-items: center;
     justify-content: center;
 }
+.brands{
+ width: 1170px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ background-color: #f2d7da61;
+border-radius: 16px;;
 
+}
+.img-container{
+    width: 1100px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 
+}
+.brands-title{
+    display: flex;
+    justify-content: center;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
 .choice-title {
 
     height: 50px;
@@ -571,7 +582,7 @@ margin-bottom: 110px;
    margin-bottom: 50px;
 }
 /* media query */
- @media screen and (max-width:600px) {
+ @media screen and (max-width:576px) {
     header{
      flex-direction: column;
      align-items: center;
@@ -692,6 +703,19 @@ font-weight: 800;
     
 
 }
+.brands{
+    width:335px;
+}
+.brands-title{
+    font-size: 20px;
+font-weight: 800;
+align-items: center;
+
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+}
 .choice-title{
 
 font-size: 20px;
@@ -717,7 +741,7 @@ text-align: center;
     width: 335px;
     align-items: left;
 }
-.card-1 img , .card-2 img, .card-3img{
+.card-1 img , .card-2 img, .card-3 img{
     margin-right: 255px;
     margin-left: 0;
 }
